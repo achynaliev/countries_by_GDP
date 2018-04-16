@@ -3,9 +3,6 @@
 Largest economies by nominal GDP in 2017,
 counting the economies of the European Union as one,
 according to International Monetary Fund estimates.
-A pie chart displaying the world's seven largest economies—the United States, the European Union, China, Japan, India, Brazil, and Canada.
-The United States, the world's largest economy, accounts for approximately 25 percent of Nominal world GDP, and the seven largest economies, amalgamating the European Union economies as one, account for 75 percent of the total.
-Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year. Countries are sorted by nominal GDP estimates from financial and statistical institutions, which are calculated at market or government official exchange rates.
 
 ### Wireframes
 
