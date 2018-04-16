@@ -36,7 +36,10 @@ d3.csv("countries.csv", function(d) {
     .data(pack(root).leaves())
     .enter().append("g")
       .attr("class", "node")
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      .on("click", function(d) {
+          alert("on click" + d.className);
+      });
 
   node.append("circle")
       .attr("id", function(d) { return d.id; })
@@ -60,12 +63,6 @@ d3.csv("countries.csv", function(d) {
   node.append("title")
       .text(function(d) { return d.id + "\n" + format(d.value); });
 
-  node.append("circle")
-      .attr("r", function(d) { return d.r; })
-      .style("fill", function(d) { return fill(d.packageName); })
-      .on("click", function(d) {
-          alert("on click" + d.className);
-      });
 });
 
 </script>
