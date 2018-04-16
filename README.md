@@ -9,7 +9,7 @@ Gross domestic product (GDP) is the market value of all final goods and services
 
 ### Wireframes
 
-![Wireframe]()
+![Wireframe](https://github.com/achynaliev/countries_by_GDP/blob/master/wireframes/gdp.png)
 
 ### Functionality & MVP
 * Users can view Countries by year
