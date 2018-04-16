@@ -6,6 +6,7 @@ countries.analytics.cluster.USA,19362129
 countries.analytics.cluster.China,11937562
 countries.analytics.cluster.Japan,4884489
 countries.analytics.cluster.Germany,3651871
+countries.analytics.cluster.Rest of the world,3282583
 countries.analytics.cluster.France,2574807
 countries.analytics.cluster.UK,2565051
 countries.analytics.cluster.India,2439008
@@ -62,4 +63,3 @@ countries.analytics.cluster.Kazakhstan,156189
 countries.analytics.cluster.Hungary,132034
 countries.analytics.cluster.Angola,124034
 countries.analytics.cluster.Sudan,118979
-countries.analytics.cluster.Rest of the world,3282583
