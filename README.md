@@ -10,7 +10,8 @@ according to International Monetary Fund estimates.
 
 ### Functionality & MVP
 * Users can view Countries by year
-* Users can click on each Country and view more details
+* Users can hover over to see more information
+* click on tabs to see different graphs about countries
 
 ### Architecture and Technologies
 *	D3.js
@@ -23,10 +24,10 @@ according to International Monetary Fund estimates.
 setup basic page layout
 
 **Day 2:**
-implement bubble graphs by year
+working on main graph and hover effect
 
 **Day 3:**
-show more information on hover
+implement more graphs
 
 **Day 4:**
 Style the page, add link to my Github, Linkedin
