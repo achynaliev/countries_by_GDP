@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid gray 0.5px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+h2 {
+  width: 70vw;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h3 {
+  padding-top: 4px;
+  font-size: 21px;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+.drop-parent {
+  padding-top: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  font-size: 18px;
+}
+
+.main-body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.bubbleChart {
+  padding: 0px;
+  width: 1250px;
+  height: 1220px;
+}
