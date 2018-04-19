@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
@@ -9,13 +10,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+<style>
+  .bar {
+    fill: steelblue;
+  }
+
+  .bar:hover {
+    fill: brown;
+  }
+
+  .axis--x path {
+    display: none;
+  }
+</style>
 <body>
   <header>
     <h1>Top 30 countries by GDP(nominal)</h1>
     <h2>
-Largest economies by nominal GDP in past 10 years,,
+Largest economies by nominal GDP in past 10 years,
 according to International Monetary Fund estimates.
-Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year
     </h2>
   </header >
   <div class="drop-parent">
@@ -35,6 +48,8 @@ Gross domestic product (GDP) is the market value of all final goods and services
     </select>
   </div>
   <section class="main-body">
+    <div id="barchartInfo">
+    </div>
     <div class="bubbleChart">
     <script type="text/javascript" src="countries.js"></script>
     </div>
