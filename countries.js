@@ -68,27 +68,27 @@ function FuckData(gdpYear) {
         .attr("pointer-events", "none")
         .text('GDP(nominal) $' + d.gdp2017 + " milllions");
 
-    selectedNode.append("text")
-        .attr("class", "innerText")
-        .attr("text-anchor", "middle")
-        .attr("font-size", 24)
-        .attr("x", d.x)
-        .attr("y", d.y)
-        .attr("dy", "0em")
-        .attr("font-weight", "400")
-        .attr("pointer-events", "none")
-        .text("quality of life index " + d.qualityOfLife);
-
-    selectedNode.append("text")
-        .attr("class", "innerText")
-        .attr("text-anchor", "middle")
-        .attr("font-size", 24)
-        .attr("x", d.x)
-        .attr("y", d.y)
-        .attr("dy", "1.2em")
-        .attr("font-weight", "400")
-        .attr("pointer-events", "none")
-        .text("pollution index " + d.polution);
+    // selectedNode.append("text")
+    //     .attr("class", "innerText")
+    //     .attr("text-anchor", "middle")
+    //     .attr("font-size", 24)
+    //     .attr("x", d.x)
+    //     .attr("y", d.y)
+    //     .attr("dy", "0em")
+    //     .attr("font-weight", "400")
+    //     .attr("pointer-events", "none")
+    //     .text("quality of life index " + d.qualityOfLife);
+    //
+    // selectedNode.append("text")
+    //     .attr("class", "innerText")
+    //     .attr("text-anchor", "middle")
+    //     .attr("font-size", 24)
+    //     .attr("x", d.x)
+    //     .attr("y", d.y)
+    //     .attr("dy", "1.2em")
+    //     .attr("font-weight", "400")
+    //     .attr("pointer-events", "none")
+    //     .text("pollution index " + d.polution);
   }
 
   let bubbleChart = d3.select(".bubbleChart")
@@ -115,6 +115,11 @@ function FuckData(gdpYear) {
     var format = d3.format(",d");
 
     var defs = svg.append("defs");
+
+    $("a[href='#top']").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+      return false;
+    });
 
     defs.append("pattern")
       .attr("id", "us")
