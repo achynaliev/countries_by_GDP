@@ -52,7 +52,7 @@ function FuckData(gdpYear) {
         .attr("font-size", 30)
         .attr("x", d.x)
         .attr("y", d.y)
-        .attr("dy", "-3em")
+        .attr("dy", "-1.2em")
         .attr("font-weight", "500")
         .attr("pointer-events", "none")
         .text(d.id);
@@ -63,7 +63,7 @@ function FuckData(gdpYear) {
         .attr("font-size", 24)
         .attr("x", d.x)
         .attr("y", d.y)
-        .attr("dy", "-1.2em")
+        .attr("dy", "0em")
         .attr("font-weight", "500")
         .attr("pointer-events", "none")
         .text('GDP(nominal) $' + d.gdp2017 + " milllions");

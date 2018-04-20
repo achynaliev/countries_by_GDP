@@ -48,9 +48,10 @@ select {
   padding-left: 100px;
 }
 
-.bubbleChart {
+#bubbleChart {
   padding: 0px;
-  width: 1300px;
+  width: 100vw;
+  margin: 0 auto;
   height: 1220px;
 }
 
@@ -77,4 +78,16 @@ select {
   padding-left: 400px;
   font-size: 20px;
   font-weight: 400;
+}
+
+#backBtn {
+  border: solid #f0f0f0 1px;
+  border-radius: 3px;
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+   background-color: #009e73;
 }
