@@ -3,16 +3,16 @@ function byYear(){
   let gdpYear = e.options[e.selectedIndex].value;
 
   e.addEventListener("change", function() {
-    FuckData(e.options[e.selectedIndex].value);
+    GdpData(e.options[e.selectedIndex].value);
   });
 
-  FuckData(e.options[e.selectedIndex].value)
+  GdpData(e.options[e.selectedIndex].value)
 
 };
 
 byYear();
 
-function FuckData(gdpYear) {
+function GdpData(gdpYear) {
 
   const countryIndex = {'USA': 'https://api.worldbank.org/v2/countries/us/indicators/NY.GDP.MKTP.CD?format=json',
           'China': 'https://api.worldbank.org/v2/countries/cn/indicators/NY.GDP.MKTP.CD?format=json',
@@ -202,7 +202,7 @@ function FuckData(gdpYear) {
             document.getElementById('barchartInfo').appendChild(btn);
             document.getElementById('barchartInfo').appendChild(detailstext)
             btn.id = "backBtn"
-            btn.addEventListener("click", () => FuckData(gdpYear))
+            btn.addEventListener("click", () => GdpData(gdpYear))
 
             $.ajax({
               type: 'GET',

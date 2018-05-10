@@ -53,6 +53,9 @@ select {
   width: 100vw;
   margin: 0 auto;
   height: 1220px;
+  align-self: center;
+  align-items: center;
+  align-content: center;
 }
 
 .bar {

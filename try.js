@@ -3,16 +3,16 @@ function byYear(){
   let gdpYear = e.options[e.selectedIndex].value;
 
   e.addEventListener("change", function() {
-    FuckData(e.options[e.selectedIndex].value);
+    GdpData(e.options[e.selectedIndex].value);
   });
 
-  FuckData(e.options[e.selectedIndex].value)
+  GdpData(e.options[e.selectedIndex].value)
 
 };
 
 byYear();
 
-function FuckData(gdpYear) {
+function GdpData(gdpYear) {
 
   let more_information = function (d, selectedNode) {
 
