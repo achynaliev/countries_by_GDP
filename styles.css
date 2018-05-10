@@ -45,17 +45,14 @@ select {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
+  align-items: center;
+  align-content: center;
 }
 
 #bubbleChart {
   padding: 0px;
   width: 100vw;
-  margin: 0 auto;
   height: 1220px;
-  align-self: center;
-  align-items: center;
-  align-content: center;
 }
 
 .bar {
